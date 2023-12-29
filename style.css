@@ -1,0 +1,193 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Added box-sizing for better layout consistency */
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+}
+
+body {
+    background-image: linear-gradient(180deg, rgb(78, 78, 78), black);
+    margin: 0; /* Remove default body margin */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.page {
+    display: flex;
+}
+
+.sidenav {
+    /* background-color: black; */
+    height: 100vh; /* Set height to 100% of the viewport height */
+    width: 250px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    position: fixed; /* Fixed positioning to stay on the screen */
+}
+
+.submain, .submain .sub, .submain .sub2 {
+    margin-left: 120px;
+}
+
+
+.logo img {
+    margin: 30px 30px;
+    width: 60%;
+    height: 60%;
+}
+
+.conten1 img ,.content2 img ,.content4 img {
+    padding: 15px 0px 0px 30px;
+    width:51px;
+    height:31px;
+}
+
+#img4 {
+    margin-left: -3px;
+    padding: 55px -1 0 0;
+}
+
+.sidenav a{
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 15px;
+    display: inline;
+}
+
+#img5 ,#img4{
+    position: relative;
+}
+
+#addsymbol{
+    position: absolute;
+    color: black;
+    top: 264px;
+    left: 22px;
+    font-size: 30px;
+}
+
+#img6{
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: 315px;
+    left:6px;
+}
+
+.content3 a{
+    margin-left: 30px;
+    padding-top: 55px;
+}
+
+.content4{
+    padding-top: 55px;
+}
+
+
+.boxes{
+    display: flex;
+    margin-left: 30px;
+}
+
+.boxes div img{
+    width: 5em;
+    height: 5em;
+}
+
+.boxes div{
+    border: 2px solid  rgb(130, 128, 128);
+    width: 15em;
+    height:5em;
+    background-color: rgb(130, 128, 128);
+    border-radius: 4px;
+}
+.singers {
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+    margin-left: 2%;
+}
+
+.singers div {
+    border: 2px solid rgb(56, 56, 56);
+    background-color: rgb(56, 56, 56);
+    padding: 2%;
+    text-align: center; /* Center the text */
+}
+
+.singers div img {
+    width: 5em; /* Adjust the width of the images */
+    height: 5em; /* Adjust the height of the images */
+    margin-bottom: 5px; /* Add some space between image and text */
+}
+
+.singers div h2 {
+    font-size: 14px; /* Adjust the font size of h2 */
+    margin: 5px 0; /* Add some space around the text */
+}
+
+.singers div p {
+    font-size: 12px; /* Adjust the font size of p */
+    margin: 5px 0; /* Add some space around the text */
+}
+
+
+
+.con2  p{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 40px;
+}
+
+.subcontent{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.boxes div ,.box5 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.boxes div ,.box5 p{
+    margin: 10px;
+}
+#topnav {
+    width: 60px;
+    height: 25px;
+}
+.box5{
+    margin-left: 160px;
+    border: 2px solid  rgb(130, 128, 128);
+    width: 15em;
+    height:5em;
+    background-color: rgb(130, 128, 128);
+    border-radius: 4px;
+}
+.contents9{
+margin-right: 70px;
+}
+#topnav{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+#userimg{
+    margin-top: 30px;
+  margin-left: 750px;
+}
+#box5img{
+    width: 85px;
+    height: 80px;
+}
