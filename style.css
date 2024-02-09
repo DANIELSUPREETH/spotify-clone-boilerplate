@@ -191,3 +191,12 @@ margin-right: 70px;
     width: 85px;
     height: 80px;
 }
+
+@media screen and (max-width: 768px) {
+    .sidenav {
+        width: 100%;
+    }
+    .submain {
+        width: 100%;
+    }
+}
